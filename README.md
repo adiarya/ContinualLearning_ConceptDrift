@@ -7,7 +7,7 @@
 A lightweight reinforcement/continual learning proof-of-concept that demonstrates how a Text-to-Image (T2I) model can actively adapt to shifting human preferences (concept drift) without suffering from catastrophic forgetting.
 
 ## The Problem: Concept Drift in Generative AI
-When generative models are deployed, user preferences change over time. A model trained to generate "anime" might suddenly face a user base that prefers "photorealism." Traditional models fail here—they either keep generating outdated styles, or they require a massive, expensive retraining phase that overwrites their previous knowledge (catastrophic forgetting).
+When generative models are deployed, user preferences change over time. A model trained to generate "anime" might suddenly face a user base that prefers "photorealism." Traditional models fail here they either keep generating outdated styles, or they require a massive, expensive retraining phase that overwrites their previous knowledge (catastrophic forgetting).
 
 This project solves that by implementing an **Active Adaptation Loop** using `segmind/tiny-sd`, OpenAI's `CLIP`, and dynamic LoRA (Low-Rank Adaptation) experts.
 
